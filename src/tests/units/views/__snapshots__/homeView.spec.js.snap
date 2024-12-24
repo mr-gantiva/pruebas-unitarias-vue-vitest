@@ -1,0 +1,25 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Componente HomeView.vue > Snapshot de HomeView.vue 1`] = `
+"<main>
+  <!-- <TheWelcome /> -->
+  <nav>
+    <router-link-stub to="/about" replace="false" custom="false" ariacurrentvalue="page"></router-link-stub>
+    <router-link-stub to="/contact" replace="false" custom="false" ariacurrentvalue="page"></router-link-stub>
+  </nav>
+  <router-view-stub name="default"></router-view-stub>
+  <posts-stub></posts-stub>
+</main>"
+`;
+
+exports[`Componente HomeView.vue > Validación de match con el snapshot 1`] = `
+"<main>
+  <!-- <TheWelcome /> -->
+  <nav>
+    <router-link-stub to="/about" replace="false" custom="false" ariacurrentvalue="page"></router-link-stub>
+    <router-link-stub to="/contact" replace="false" custom="false" ariacurrentvalue="page"></router-link-stub>
+  </nav>
+  <router-view-stub name="default"></router-view-stub>
+  <posts-stub></posts-stub>
+</main>"
+`;
